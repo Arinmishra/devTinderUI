@@ -42,7 +42,7 @@ DevTinderUI/
 git clone https://github.com/your-username/devtinder-frontend.git
 
 # Navigate to project directory
-cd devtinder-frontend
+cd devtinderUI
 
 # Install dependencies
 npm install
@@ -55,9 +55,9 @@ npm start
 
 The frontend communicates with the backend for authentication, profile management, and connections. Ensure the backend is running before testing the frontend.
 
-## 🚀 Deployment
+<!-- ## 🚀 Deployment
 
-The frontend is deployed on **[Your Hosting Platform]**.
+The frontend is deployed on **[Your Hosting Platform]**. -->
 
 ## 🛠️ Future Improvements
 
