@@ -2,7 +2,7 @@
 
 ## 🚀 About the Project
 
-The frontend for **DevTinder**, a developer matchmaking platform, provides an interactive UI for users to sign up, connect, and interact with fellow developers.
+The frontend for **DevTinder**, a developer matchmaking platform, provides an interactive UI for users to sign up, connect, and interact with fellow developers, now featuring **real-time chat** capabilities.
 
 ## 🛠️ Features
 
@@ -11,6 +11,7 @@ The frontend for **DevTinder**, a developer matchmaking platform, provides an in
 - 💡 **Connection Requests** (Send and review connection requests)
 - 🤝 **User Connections** (View and manage accepted connections)
 - 🌍 **Feed System** (Discover and interact with other developers)
+- 💬 **Real-time Chat** (Instant messaging with connections)
 - 🎨 **Responsive UI** (Optimized for all screen sizes)
 
 ## 🏗️ Tech Stack
@@ -20,6 +21,7 @@ The frontend for **DevTinder**, a developer matchmaking platform, provides an in
 - **Routing**: React Router
 - **API Handling**: Axios
 - **Styling**: Tailwind CSS
+- **Real-time Communication**: Socket.io
 <!-- - **Deployment**: Netlify / Vercel -->
 
 ## 📂 Folder Structure
@@ -39,7 +41,7 @@ DevTinderUI/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/devtinder-frontend.git
+git clone https://github.com/your-username/devtinderUI.git
 
 # Navigate to project directory
 cd devtinderUI
@@ -53,7 +55,7 @@ npm start
 
 ## 🔗 API Integration
 
-The frontend communicates with the backend for authentication, profile management, and connections. Ensure the backend is running before testing the frontend.
+The frontend communicates with the backend for authentication, profile management, connections, and **real-time chat**. Ensure the backend is running before testing the frontend.
 
 <!-- ## 🚀 Deployment
 
@@ -64,7 +66,7 @@ The frontend is deployed on **[Your Hosting Platform]**. -->
 - 🎭 **Better UI Enhancements**
 - 🌎 **Multi-language Support**
 - 🔔 **Real-time Notifications**
-- 💬 **Real-time Communication**
+- 💬 **Real-time Communication Enhancements**
 - 🎯 **Advanced Search & Filtering**
 
 ## 📬 Contact
