@@ -1,8 +1,9 @@
 import axios from "axios";
 import { BASE_URL } from "../utils/constants";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addConnections } from "../utils/connectionsSlice";
+import { Link } from "react-router";
 
 const Connections = () => {
   const connections = useSelector((store) => store.connections);
@@ -26,6 +27,7 @@ const Connections = () => {
   useEffect(() => {
     fetchConnections();
   }, []);
+
   if (!connections) return;
 
   return connections.length === 0 ? (
@@ -68,8 +70,10 @@ const Connections = () => {
               )}
             </div>
 
-            {/* Remove Button */}
-            {/* <button className="btn btn-error text-xs p-2">Remove</button> */}
+            {/*Remove Button */}
+            <Link to={"/chat/" + c._id}>
+              <button className="btn btn-info text-sm  px-4">Chat</button>
+            </Link>
           </li>
         ))}
       </ul>

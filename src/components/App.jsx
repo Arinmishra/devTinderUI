@@ -7,6 +7,7 @@ import appStore from "../utils/appStore";
 import Feed from "./Feed";
 import Connections from "./Connections";
 import Requests from "./Requests";
+import Chat from "./chat";
 
 const isAuthenticated = document.cookie.includes("token");
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/profile" element={<Profile />} />
               <Route path="/connections" element={<Connections />} />
               <Route path="/requests" element={<Requests />} />
+              <Route path="/chat/:targetUserId" element={<Chat />} />
 
               {/* other routes*/}
               <Route
